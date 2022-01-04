@@ -1,0 +1,15 @@
+{
+    "name": "gri3li/trading-api-contracts",
+    "type": "library",
+    "description": "Generic abstractions related to trading API",
+    "keywords": ["exchange", "stock", "abstractions", "contracts", "decoupling", "interfaces", "standards"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gri3li\\TradingApiContracts\\": ""
+        }
+    }
+}
