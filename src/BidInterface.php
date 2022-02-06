@@ -1,8 +1,8 @@
 <?php
 
-namespace Gri3li\TradingApiContracts\interfaces;
+namespace Gri3li\TradingApiContracts;
 
-interface AskInterface
+interface BidInterface
 {
 	public function __construct(SymbolPairInterface $symbolPair, PriceInterface $price, VolumeInterface $volume);
 	public function getSymbolPair(): SymbolPairInterface;

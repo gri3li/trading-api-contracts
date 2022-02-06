@@ -1,6 +1,6 @@
 <?php
 
-namespace Gri3li\TradingApiContracts\interfaces;
+namespace Gri3li\TradingApiContracts;
 
 interface PriceInterface
 {

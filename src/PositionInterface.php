@@ -1,6 +1,6 @@
 <?php
 
-namespace Gri3li\TradingApiContracts\interfaces;
+namespace Gri3li\TradingApiContracts;
 
 interface PositionInterface
 {
@@ -19,5 +19,5 @@ interface PositionInterface
 	public function getVolume(): VolumeInterface;
 	public function getEntryPrice(): PriceInterface;
 	public function getMarkPrice(): PriceInterface;
-	public function getUnRealizedProfit(): PriceInterface;
+	public function getUnRealizedPnL(): PriceInterface;
 }
