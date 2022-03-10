@@ -2,7 +2,7 @@
 
 namespace Gri3li\TradingApiContracts;
 
-interface PriceInterface
+interface AccountExchange
 {
 	public function __toString(): string;
 }

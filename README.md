@@ -1,5 +1,5 @@
-# In developing
+Trading API Contracts
+=====================
 
-[Repository Pattern](https://blog.mnavarro.dev/posts/repository-pattern-done-right/)
 
-![Exchange API Interfaces Diagram](diagram.png)
+[Binance API](https://github.com/gri3li/binance-api)

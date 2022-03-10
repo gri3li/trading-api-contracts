@@ -2,7 +2,7 @@
 
 namespace Gri3li\TradingApiContracts;
 
-interface OrderStatusInterface
+interface OrderStatus
 {
 	public const NEW = 'NEW';
 	public const FILLED = 'FILLED';
@@ -11,5 +11,8 @@ interface OrderStatusInterface
 	public const PENDING_CANCEL = 'PENDING_CANCEL';
 	public const REJECTED = 'REJECTED';
 	public const EXPIRED = 'EXPIRED';
+
+	public function getParam(): string;
+	public function getValue(): string;
 	public function __toString(): string;
 }

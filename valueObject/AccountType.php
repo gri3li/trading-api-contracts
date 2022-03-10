@@ -2,7 +2,7 @@
 
 namespace Gri3li\TradingApiContracts;
 
-interface AccountTypeInterface
+interface AccountType
 {
 	public const SPOT = 'SPOT';
 	public const MARGIN = 'MARGIN';

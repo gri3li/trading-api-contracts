@@ -8,8 +8,10 @@
         "php": ">=7.1"
     },
     "autoload": {
-        "psr-4": {
-            "Gri3li\\TradingApiContracts\\": "src"
-        }
+        "classmap": [
+            "findCriteria/",
+            "repository/",
+            "valueObject/"
+        ]
     }
 }

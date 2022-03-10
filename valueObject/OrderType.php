@@ -2,7 +2,7 @@
 
 namespace Gri3li\TradingApiContracts;
 
-interface OrderTypeInterface
+interface OrderType
 {
 	public function getParams(): array;
 }
